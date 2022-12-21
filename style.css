@@ -2,22 +2,20 @@
 /* Body page */
 
 body {
-    font-family: Roboto, Arial, sans-serif;
-    max-width: 1000px;
-    margin: auto;
-    color: #e5e7eb;
+    font-family: Roboto, Arial, sans-serif; 
 }
 
 
 
 
-/* Header */
+/* Hero */
 
 
 #hero {
     background-color: #1f2937;
+    color: #e5e7eb;
     font-size: 18px;
-    padding: 10px 45px 45px 45px;
+    padding: 10px 200px 50px 200px;
 }
 
 header {
@@ -47,11 +45,15 @@ header img {
     color: #f5ce43;
 }
 
+
+
+
+
 #baniere {
     font-size: 18px;
-    max-width: 450px;
     display: flex;
-    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
 }
 
 h1 {
@@ -61,5 +63,17 @@ h1 {
 }
 
 #baniere img {
-    flex: none;
+    height: 300px;
 }
+
+#baniere button {
+    width: 100px;
+    padding: 6px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 6px;
+}
+
+
+/* Body Part */
