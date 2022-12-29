@@ -7,6 +7,18 @@ body {
     padding: 0;
 }
 
+button {
+    font-size: 18px;
+    width: 100px;
+    padding: 6px;
+    margin: 15px 0;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 6px;
+    border: 1px #3882f6;
+}
+
 
 
 
@@ -47,10 +59,6 @@ header img {
     color: #f5ce43;
 }
 
-
-
-
-
 #baniere {
     font-size: 18px;
     display: flex;
@@ -66,16 +74,6 @@ h1 {
 
 #baniere img {
     height: 300px;
-}
-
-#baniere button {
-    width: 100px;
-    padding: 6px;
-    font-weight: bold;
-    background-color: #3882f6;
-    color: #e5e7eb;
-    border-radius: 6px;
-    border: 1px #3882f6;
 }
 
 
@@ -132,4 +130,31 @@ h2 {
     font-weight: bold;
     font-style: normal;
     font-size: smaller;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 100px 150px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 40px;
+    gap: 50px;
+}
+
+#footer button {
+    align-self: center;
+}
+
+h3, p {
+    padding: 0;
+    margin: 0;
 }
