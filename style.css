@@ -82,7 +82,7 @@ h1 {
 /* Body Part */
 
 #information {
-    padding: 0px 150px;
+    padding: 30px 150px 100px 150px;
 }
 
 h2 {
@@ -111,3 +111,25 @@ h2 {
     border-radius: 5px;
 }
 
+
+/* Citation */
+
+#paragraph {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.sign {
+    align-self: flex-end;
+    font-weight: bold;
+    font-style: normal;
+    font-size: smaller;
+}
