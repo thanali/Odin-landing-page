@@ -9,7 +9,7 @@ body {
 
 button {
     font-size: 18px;
-    width: 100px;
+    width: 130px;
     padding: 6px;
     margin: 15px 0;
     font-weight: bold;
@@ -22,7 +22,8 @@ button {
 
 
 
-/* Hero */
+
+/* Header */
 
 
 #hero {
@@ -59,11 +60,17 @@ header img {
     color: #f5ce43;
 }
 
+
+
+
+/* Banniere */
+
+
 #baniere {
-    font-size: 18px;
     display: flex;
-    gap: 20px;
-    padding-top: 50px;
+    justify-content: space-between;
+    margin: auto;
+    gap: 50px;
 }
 
 h1 {
@@ -73,8 +80,13 @@ h1 {
 }
 
 #baniere img {
-    height: 300px;
+    height: 400px;
 }
+
+.title {
+    align-self: center;
+}
+
 
 
 /* Body Part */
@@ -146,8 +158,9 @@ h2 {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
-    padding: 40px;
+    padding: 40px 120px;
     gap: 50px;
+    border-radius: 10px;
 }
 
 #footer button {
